@@ -1,0 +1,286 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Yash Panwal | Agentic AI Engineer</title>
+  <meta name="description" content="Portfolio of Yash Panwal, AI/ML Engineer: LLMs, RAG, NLP and AI agents. Projects, experience and learning.">
+  <meta name="theme-color" content="#04060f">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600&family=JetBrains+Mono:wght@400;500&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <!-- layered animated background -->
+  <div class="bg" aria-hidden="true">
+    <div class="aurora a1"></div>
+    <div class="aurora a2"></div>
+    <div class="aurora a3"></div>
+    <div class="gridlines"></div>
+    <canvas id="bg"></canvas>
+    <div class="glow"></div>
+    <div class="noise"></div>
+  </div>
+  <div class="progress" aria-hidden="true"></div>
+
+  <header class="nav">
+    <a href="#home" class="logo"><span class="mark">YP</span>Yash Panwal</a>
+    <button class="menu-btn" aria-label="Toggle menu" aria-expanded="false">☰</button>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#skills">Skills</a>
+      <a href="#experience">Experience</a>
+      <a href="#projects">Projects</a>
+      <a href="#learning">Education</a>
+      <a href="#contact" class="cta-sm">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="home" class="hero">
+      <div class="hero-text">
+        <p class="badge"><i></i>AI/ML Engineer @ Biz Technologies · Navi Mumbai</p>
+        <h1><span class="hi">Hi, I'm</span><span class="grad name" id="name">Yash Panwal</span></h1>
+        <h2 class="typed-line mono"><span class="prompt">&gt;</span> <span id="typed"></span><span class="cursor">▍</span></h2>
+        <p class="lead">I build production-grade NLP, RAG and agentic AI systems, taking ideas from raw data and model training all the way to deployed APIs.</p>
+        <div class="btns">
+          <a href="#projects" class="btn primary">View Projects <span>→</span></a>
+          <a href="resume.pdf" class="btn ghost" download>Download Resume</a>
+        </div>
+        <div class="stats">
+          <div><b data-count="9">0</b><span>Projects on GitHub</span></div>
+          <div><b data-count="3">0</b><span>Roles across AI, ops &amp; support</span></div>
+          <div><b data-count="48" data-suffix="k+">0</b><span>Tickets used to fine-tune BERT</span></div>
+        </div>
+      </div>
+      <div class="orb-wrap" aria-hidden="true">
+        <canvas id="orb"></canvas>
+        <span class="float f1 mono">RAG</span>
+        <span class="float f2 mono">LLMs</span>
+        <span class="float f3 mono">Agents</span>
+        <span class="float f4 mono">NLP</span>
+      </div>
+    </section>
+
+    <!-- MARQUEE -->
+    <div class="marquee" aria-hidden="true">
+      <div class="track mono">
+        <span>PyTorch</span><span>HuggingFace</span><span>BERT</span><span>LLaMA 3</span><span>LangChain</span><span>LangGraph</span><span>FAISS</span><span>ChromaDB</span><span>Ollama</span><span>Groq</span><span>FastAPI</span><span>Streamlit</span><span>scikit-learn</span><span>n8n</span><span>Power BI</span><span>Azure</span>
+        <span>PyTorch</span><span>HuggingFace</span><span>BERT</span><span>LLaMA 3</span><span>LangChain</span><span>LangGraph</span><span>FAISS</span><span>ChromaDB</span><span>Ollama</span><span>Groq</span><span>FastAPI</span><span>Streamlit</span><span>scikit-learn</span><span>n8n</span><span>Power BI</span><span>Azure</span>
+      </div>
+    </div>
+
+    <!-- ABOUT -->
+    <section id="about">
+      <div class="head reveal"><span class="eyebrow mono">01 / about</span><h3>Building AI that <span class="grad">ships</span></h3></div>
+      <div class="about-grid stagger">
+        <div class="card bio">
+          <p>I'm a Generative AI enthusiast with an MSc in Data Science from the University of Mumbai. I build clean, well-documented AI solutions: fine-tuning Transformer models, wiring up Retrieval-Augmented Generation pipelines, and shipping them behind FastAPI services and friendly UIs.</p>
+          <p>Today I work as an AI/ML Engineer at Biz Technologies, building trading bots, an AI agent marketplace and chatbots. I'm backed by a strong foundation in linear algebra, probability, statistics and optimization, and I'm eager to contribute to cutting-edge generative AI research and engineering.</p>
+        </div>
+        <div class="card terminal">
+          <div class="dots"><i></i><i></i><i></i><em class="mono">yash.py</em></div>
+<pre class="mono"><span class="k">&gt;&gt;&gt;</span> yash = {
+  <span class="s">"role"</span>: <span class="v">"AI/ML Engineer"</span>,
+  <span class="s">"focus"</span>: [<span class="v">"LLMs"</span>, <span class="v">"RAG"</span>, <span class="v">"NLP"</span>],
+  <span class="s">"stack"</span>: [<span class="v">"PyTorch"</span>, <span class="v">"LangChain"</span>],
+  <span class="s">"based_in"</span>: <span class="v">"Navi Mumbai"</span>
+}
+<span class="k">&gt;&gt;&gt;</span> yash.ship()<span class="cursor">▍</span></pre>
+        </div>
+        <div class="card mini"><div class="ico">🧠</div><h4>LLM &amp; RAG systems</h4><p>Fine-tuned BERT classifiers and retrieval pipelines over FAISS and ChromaDB that ground LLaMA models in real data.</p></div>
+        <div class="card mini"><div class="ico">🤖</div><h4>Agents &amp; automation</h4><p>Trading bots, multi-agent prediction systems, Telegram bots and n8n workflows that run end to end.</p></div>
+        <div class="card mini"><div class="ico">🚀</div><h4>Model to production</h4><p>FastAPI services with live NDJSON streaming, Streamlit apps and Docker, with React front ends on top.</p></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills">
+      <div class="head reveal"><span class="eyebrow mono">02 / skills</span><h3>My <span class="grad">toolbox</span></h3></div>
+      <div class="skills stagger">
+        <div class="card"><h4>Generative AI &amp; LLMs</h4>
+          <div class="chips"><span>LLaMA 3 / 3.2 / 3.3</span><span>Ollama</span><span>Groq API</span><span>BERT</span><span>T5</span><span>Prompt Eng.</span></div></div>
+        <div class="card"><h4>ML / DL Frameworks</h4>
+          <div class="chips"><span>PyTorch</span><span>scikit-learn</span><span>HuggingFace</span><span>TensorFlow</span></div></div>
+        <div class="card"><h4>NLP &amp; RAG</h4>
+          <div class="chips"><span>FAISS</span><span>ChromaDB</span><span>LangChain</span><span>LangGraph</span><span>TF-IDF</span><span>Fine-tuning</span><span>Semantic search</span></div></div>
+        <div class="card"><h4>Deployment &amp; Automation</h4>
+          <div class="chips"><span>FastAPI</span><span>Streamlit</span><span>REST APIs</span><span>NDJSON streaming</span><span>n8n</span><span>Docker</span></div></div>
+        <div class="card"><h4>Data &amp; Visualization</h4>
+          <div class="chips"><span>Python</span><span>SQL</span><span>Pandas</span><span>NumPy</span><span>Power BI</span><span>Matplotlib</span><span>Seaborn</span></div></div>
+        <div class="card"><h4>Cloud &amp; Tools</h4>
+          <div class="chips"><span>Azure</span><span>Azure DevOps</span><span>Git / GitHub</span><span>Jupyter</span><span>Colab</span><span>React / Vite</span></div></div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE -->
+    <section id="experience">
+      <div class="head reveal"><span class="eyebrow mono">03 / experience</span><h3>Where I've <span class="grad">worked</span></h3></div>
+      <div class="timeline stagger">
+        <div class="rail"><i></i></div>
+        <div class="item">
+          <div class="card">
+            <span class="date mono">Jul 2026 — Present</span>
+            <h4>AI/ML Engineer <em>· Biz Technologies</em></h4>
+            <ul>
+              <li>Built bots that trade on centralised and decentralised exchanges.</li>
+              <li>Helped create DEOD AI, an AI agent marketplace where users can register, buy or sell their agents.</li>
+              <li>Created chatbots that help with website navigation and answer questions about page content.</li>
+              <li>Developing a trader performance-tracking system: a bot pulls reports from Telegram, validates them against independently fetched values, sends a weekly summary to the group and feeds a profit &amp; loss dashboard.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card">
+            <span class="date mono">Feb 2026 — May 2026</span>
+            <h4>Server Administrator L1 <em>· Birite Technology Management Services</em></h4>
+            <ul>
+              <li>Built interactive Power BI employee performance dashboards with DAX and automated scheduled refreshes.</li>
+              <li>Wrote Python (Pandas, NumPy) scripts to clean and preprocess raw exported datasets.</li>
+              <li>Monitored Azure data pipelines, VMs and backups daily, maintaining 99%+ uptime.</li>
+              <li>Resolved incidents via TopDesk and analysed server performance trends.</li>
+            </ul>
+          </div>
+        </div>
+        <div class="item">
+          <div class="card">
+            <span class="date mono">Feb 2025 — Jan 2026</span>
+            <h4>Jr. Technical Support Executive <em>· Jibe Data Analytics</em></h4>
+            <ul>
+              <li>Diagnosed application integration issues with structured root-cause analysis.</li>
+              <li>Reproduced client-reported bugs and communicated actionable insights to developers and clients.</li>
+              <li>Managed bug and task tracking in Azure DevOps with the development team.</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS -->
+    <section id="projects">
+      <div class="head reveal"><span class="eyebrow mono">04 / projects</span><h3>Things I've <span class="grad">built</span></h3></div>
+      <div class="projects stagger">
+        <article class="card project featured ring tilt">
+          <div class="feat-text">
+            <span class="num mono">Featured · MSc key project</span>
+            <h4>AI Ticket Classifier &amp; Root Cause Predictor</h4>
+            <p>Fine-tuned three BERT models on ~48,000 real IT support tickets to classify type, queue and priority. A RAG pipeline over FAISS retrieves past resolutions and LLaMA 3.2 (via Ollama) generates root-cause suggestions, streamed as NDJSON through FastAPI to a React/Vite/Tailwind UI.</p>
+            <div class="chips"><span>BERT</span><span>LLaMA 3.2</span><span>RAG</span><span>FAISS</span><span>FastAPI</span><span>React</span></div>
+            <div class="links"><a href="https://github.com/yamsh16/TicketIQ" target="_blank" rel="noopener">View on GitHub ↗</a></div>
+          </div>
+          <div class="pipe mono" aria-hidden="true">
+            <span>🎫 incoming ticket</span><i></i>
+            <span>BERT ×3 · classify</span><i></i>
+            <span>FAISS · retrieve</span><i></i>
+            <span>LLaMA 3.2 · reason</span><i></i>
+            <span class="out">⚡ streamed root cause</span>
+          </div>
+        </article>
+
+        <article class="card project w3 tilt">
+          <div class="ico">🧪</div><span class="num mono">02</span>
+          <h4>Model Hub</h4>
+          <p>Web app that scores an AI/ML model without evaluation code. Attach any OpenAI-compatible endpoint, upload a labelled test set, and get accuracy, F1, a confusion matrix, leakage checks, a loss curve, a readiness score and in-browser chat.</p>
+          <div class="chips"><span>Evaluation</span><span>PostgreSQL</span><span>Docker</span><span>OpenAI-compatible API</span></div>
+          <div class="links"><a href="https://github.com/yamsh16/Model-Hub" target="_blank" rel="noopener">GitHub ↗</a></div>
+        </article>
+        <article class="card project w3 tilt">
+          <div class="ico">🤖</div><span class="num mono">03</span>
+          <h4>CWT Crypto Agent</h4>
+          <p>Hermes-powered multi-agent system for BTC/ETH 5-minute prediction markets: searches Polymarket and Kalshi, fetches 1,000 OHLCV bars, predicts direction with an LLM and sizes positions with half-Kelly risk management.</p>
+          <div class="chips"><span>Multi-agent</span><span>LLM</span><span>Polymarket</span><span>Kalshi</span><span>Kelly criterion</span></div>
+          <div class="links"><a href="https://github.com/yamsh16/cwt-crypto-agent" target="_blank" rel="noopener">GitHub ↗</a></div>
+        </article>
+
+        <article class="card project w2 tilt">
+          <div class="ico">📚</div><span class="num mono">04</span>
+          <h4>RAG Academic Q&amp;A Generator</h4>
+          <p>Upload a PDF, DOCX or TXT and get difficulty-graded exam-style Q&amp;A, generated by LLaMA 3.3 70B via Groq with ChromaDB retrieval.</p>
+          <div class="chips"><span>LangChain</span><span>ChromaDB</span><span>Groq</span><span>Streamlit</span></div>
+          <div class="links"><a href="https://github.com/yamsh16/Academic-Q-A-Bot" target="_blank" rel="noopener">GitHub ↗</a></div>
+        </article>
+        <article class="card project w2 tilt">
+          <div class="ico">🌐</div><span class="num mono">05</span>
+          <h4>Web Search Chatbot</h4>
+          <p>Searches the live web for every question, then answers with Llama 3.3 70B and cites its sources. Runs entirely on free tiers.</p>
+          <div class="chips"><span>Streamlit</span><span>Groq</span><span>Tavily</span></div>
+          <div class="links"><a href="https://github.com/yamsh16/Web-Chatbot" target="_blank" rel="noopener">GitHub ↗</a></div>
+        </article>
+        <article class="card project w2 tilt">
+          <div class="ico">📊</div><span class="num mono">06</span>
+          <h4>Bitcoin Sentiment vs. Trader Performance</h4>
+          <p>Hypothesis testing and correlation analysis of the Crypto Fear &amp; Greed Index against Hyperliquid trader P&amp;L.</p>
+          <div class="chips"><span>Pandas</span><span>SciPy</span><span>t-tests</span></div>
+          <div class="links"><a href="https://github.com/yamsh16/Trader-performance-and-market-sentiment-analysis" target="_blank" rel="noopener">GitHub ↗</a></div>
+        </article>
+        <article class="card project w2 tilt">
+          <div class="ico">✉️</div><span class="num mono">07</span>
+          <h4>SMS Spam Classifier</h4>
+          <p>TF-IDF pipeline benchmarking Naive Bayes, Logistic Regression and SVM on precision/recall trade-offs. Deployed as a live Streamlit app.</p>
+          <div class="chips"><span>scikit-learn</span><span>TF-IDF</span><span>Streamlit</span></div>
+          <div class="links"><a href="https://github.com/yamsh16/sms-spam-classifier-main" target="_blank" rel="noopener">GitHub ↗</a></div>
+        </article>
+        <article class="card project w2 tilt">
+          <div class="ico">🎬</div><span class="num mono">08</span>
+          <h4>Content-Based Movie Recommender</h4>
+          <p>Cosine-similarity recommender over movie metadata with pickled similarity matrices and dynamic posters from the TMDb API.</p>
+          <div class="chips"><span>scikit-learn</span><span>Cosine similarity</span><span>TMDb API</span></div>
+          <div class="links"><a href="https://github.com/yamsh16/movie-recommendor-system" target="_blank" rel="noopener">GitHub ↗</a></div>
+        </article>
+        <article class="card project w2 tilt">
+          <div class="ico">🛒</div><span class="num mono">09</span>
+          <h4>Blinkit Sales Dashboard</h4>
+          <p>Power BI dashboard over 5,000+ orders and ₹4.97M revenue with 6 DAX KPI cards, geo-maps, slicers and a 10+ table star schema.</p>
+          <div class="chips"><span>Power BI</span><span>DAX</span><span>Power Query</span></div>
+        </article>
+
+        <article class="card project w3 tilt">
+          <div class="ico">💬</div><span class="num mono">10</span>
+          <h4>Customer Support Chatbot</h4>
+          <p>Workflow automation that answers customer queries automatically, wiring an LLM into messaging and a database.</p>
+          <div class="chips"><span>n8n</span><span>Twilio</span><span>Groq</span><span>Airtable</span></div>
+        </article>
+        <article class="card project w3 tilt">
+          <div class="ico">💰</div><span class="num mono">11</span>
+          <h4>Finance Tracker Dashboard</h4>
+          <p>Built at AURA HackFest, a hackathon hosted by S K Somaiya College with GeeksforGeeks (13–14 Dec 2023).</p>
+          <div class="chips"><span>Hackathon</span></div>
+          <div class="links"><a href="https://github.com/restful-coders/Finance-Tracker" target="_blank" rel="noopener">GitHub ↗</a></div>
+        </article>
+      </div>
+      <p class="more reveal"><a href="https://github.com/yamsh16?tab=repositories" target="_blank" rel="noopener">See all repositories on GitHub ↗</a></p>
+    </section>
+
+    <!-- EDUCATION -->
+    <section id="learning">
+      <div class="head reveal"><span class="eyebrow mono">05 / education</span><h3>Education &amp; <span class="grad">interests</span></h3></div>
+      <div class="learning stagger">
+        <div class="card"><div class="ico">🎓</div><span class="date mono">2024 — 2026</span><h4>MSc in Data Science</h4><p>University of Mumbai<br>Deep Neural Networks (CNNs, RNNs, Transformers, GANs, BERT), Optimization Methods, NLP, Machine Learning.</p></div>
+        <div class="card"><div class="ico">🎓</div><span class="date mono">2021 — 2024</span><h4>BSc in Information Technology</h4><p>University of Mumbai<br>NSS, NIC National Level Volunteer, Camp Leader.</p></div>
+        <div class="card"><div class="ico">🔭</div><span class="date mono">always</span><h4>Areas of interest</h4><p>Generative AI, Large Language Models, NLP, Retrieval-Augmented Generation, model fine-tuning, AI model deployment and ML research.</p></div>
+      </div>
+    </section>
+
+    <!-- CONTACT -->
+    <section id="contact">
+      <div class="contact card ring reveal">
+        <span class="eyebrow mono">06 / contact</span>
+        <h3>Let's build something <span class="grad">intelligent</span></h3>
+        <p class="lead">Open to new opportunities, collaborations or just a chat about AI.</p>
+        <a class="mail mono" href="mailto:panwalyash1@gmail.com">panwalyash1@gmail.com</a>
+        <div class="btns">
+          <a class="btn primary" href="mailto:panwalyash1@gmail.com">Say Hello <span>→</span></a>
+          <a class="btn ghost" href="https://github.com/yamsh16" target="_blank" rel="noopener">GitHub</a>
+          <a class="btn ghost" href="https://www.linkedin.com/in/panwalyash/" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>Designed &amp; built by Yash Panwal · <span class="mono">© <span id="year"></span></span></footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
